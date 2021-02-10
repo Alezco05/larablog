@@ -10,7 +10,7 @@ class WebController extends Controller
     public function index()
     {
 
-        echo Helper::hello("Andres");
+        // echo Helper::hello("Andres");
 
         return view('web.index');
     }

@@ -83,10 +83,6 @@ Route::get('/test', function () {
     return $string;
 });
 
-Route::get('/hola/{nombre?}', function ($nombre = "Juan") {
-    return "Hola $nombre";
-});
-
 /*
 Route::get('/sobre-nosotros-en-la-web', function () {
 return "<h1>Toda la información sobre nosotros!</h1>";
